@@ -15,7 +15,8 @@
     "prestart": "npm run export",
     "server:node": "DEBUG=* node ./server",
     "server:nodemon": "DEBUG=* nodemon --exec babel-node -- ./server",
-    "serve": "serve -s out"
+    "deploy:gh-pages": "gh-pages -d out",
+    "deploy:serve": "serve -s out"
   },
   "dependencies": {
     "next": "11.1.0",
@@ -23,7 +24,9 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "bootstrap": "^5.1.0",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "eslint-config-next": "11.1.0",
+    "gh-pages": "^3.2.3"
   }
 }
