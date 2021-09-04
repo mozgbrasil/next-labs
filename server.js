@@ -33,8 +33,5 @@ app.get("/*", function (req, res) {
   res.sendFile(path.join(__dirname, "out", "index.html"));
 });
 app.listen(PORT, () => {
-  var logger_message = `Listening on http://0.0.0.0:${PORT}`;
-  var logger_id = "SERVEHTTP";
-  logger.info(logger_message, logger_id);
   console.log(`Listening on http://0.0.0.0:${PORT}`);
 });
