@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import styles from "../styles/Home.module.css";
-import { Crown, HeartLove } from "@mozg/common/baunilha";
 
 import Header from "@components/Header";
 import Footer from "@components/Footer";
@@ -340,7 +339,7 @@ const Layout = () => {
               </a>
             </p>
             <hr />
-            <Crown />
+            {/* <Crown /> */}
           </div>
 
           {/* <div className='row'>

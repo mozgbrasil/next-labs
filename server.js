@@ -1,13 +1,3 @@
-/* mozg-logger */
-const { getSentry, getRollbar, getLogzio } = require("@mozg/common/baunilha");
-const Sentry = require("@sentry/node");
-const logzioLogger = require("logzio-nodejs");
-const log4js = require("log4js");
-const logger = getLogzio(logzioLogger, log4js);
-getSentry(Sentry);
-getRollbar();
-/* mozg-logger */
-
 const express = require("express");
 const fs = require("fs");
 const favicon = require("express-favicon");
