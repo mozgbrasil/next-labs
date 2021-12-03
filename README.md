@@ -2,9 +2,7 @@
 
 ![valid XHTML][checkmark]
 
-# next-labs
-
-04092021-140901
+# next-labs 👉️
 
 - https://nextjs.org/docs/api-reference/create-next-app
 - https://github.com/cassidoo/next-netlify-starter
